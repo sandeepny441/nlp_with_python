@@ -8,6 +8,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 %matplotlib inline
 
+#---------------------------------------------------------------------------------------------------
 text=   """
       The New York Times (sometimes abbreviated as the NYT and NYTimes) 
       is an American newspaper based in New York City with worldwide influence 
@@ -19,13 +20,14 @@ text=   """
 
   """
 len(text)
-
+#---------------------------------------------------------------------------------------------------
 #REMOVE_PUNCTUATION
 exclude = set(string.punctuation)
 text = ''.join(ch for ch in text if ch not in exclude)
 len(text)
-
+#---------------------------------------------------------------------------------------------------
 #REMOVE_STOPWORDS
 STOPWORDS = set(stopwords.words('english'))
 text =  ' '.join([word for word in text.split() if word not in STOPWORDS])
 len(text)
+#---------------------------------------------------------------------------------------------------
