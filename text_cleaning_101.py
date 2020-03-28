@@ -9,15 +9,15 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 
 text=   """
- The New York Times (sometimes abbreviated as the NYT and NYTimes) 
- is an American newspaper based in New York City with worldwide influence 
- and readership.[6][7][8] Founded in 1851, the paper has won 127 Pulitzer Prizes, 
- more than any other newspaper.[9][10] The Times is ranked 18th in the world by 
- circulation and 3rd in the U.S.[11] Nicknamed "The Gray Lady,"[12] the Times has 
- long been regarded within the industry as a national "newspaper of record."[13] The paper's motto, 
- "All the News That's Fit to Print," appears in the upper left-hand corner of the front page.
+      The New York Times (sometimes abbreviated as the NYT and NYTimes) 
+      is an American newspaper based in New York City with worldwide influence 
+      and readership.[6][7][8] Founded in 1851, the paper has won 127 Pulitzer Prizes, 
+      more than any other newspaper.[9][10] The Times is ranked 18th in the world by 
+      circulation and 3rd in the U.S.[11] Nicknamed "The Gray Lady,"[12] the Times has 
+      long been regarded within the industry as a national "newspaper of record."[13] The paper's motto, 
+      "All the News That's Fit to Print," appears in the upper left-hand corner of the front page.
 
- """
+  """
 len(text)
 
 #REMOVE_PUNCTUATION
