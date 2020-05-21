@@ -31,3 +31,14 @@ STOPWORDS = set(stopwords.words('english'))
 text =  ' '.join([word for word in text.split() if word not in STOPWORDS])
 len(text)
 #---------------------------------------------------------------------------------------------------
+
+  
+import pandas as pd 
+import numpy as np 
+import nltk
+from nltk.corpus import stopwords
+import re
+import string
+import seaborn as sns 
+import matplotlib.pyplot as plt
+%matplotlib inline
