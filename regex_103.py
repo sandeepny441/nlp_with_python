@@ -47,3 +47,8 @@ print(x) #this will print an object
 txt = "The rain in Spain"
 x = re.search(r"\bS\w+", txt)
 print(x.string)
+
+
+txt = "The rain in Spain"
+x = re.search(r"\bS\w+", txt)
+print(x.group())
