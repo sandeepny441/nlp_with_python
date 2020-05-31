@@ -26,3 +26,7 @@ print(x)
 txt = "The rain in Spain"
 x = re.split("\s", txt)
 print(x)
+
+txt = "The rain in Spain"
+x = re.split("\s", txt)
+print(x)
