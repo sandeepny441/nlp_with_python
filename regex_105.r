@@ -50,3 +50,11 @@ print(x.group())
 
 txt = "The rain in Spain"
 x = re.split("\s", txt)
+
+
+txt = "The rain in Spain"
+x = re.sub("\s", "9", txt)
+print(x)
+
+txt = "The rain in Spain"
+x = re.sub("\s", "9", txt, 2)
